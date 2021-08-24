@@ -12,6 +12,9 @@ export default function(center, radius) {
     },
     includes(Point) {
       // TODO: write your code here
+      let dx = Math.pow((Point.x- center.x), 2);
+      let dy = Math.pow((Point.y-center.y), 2);
+      if ((dx+dy) <= Math.pow(radius, 2)){ return true } else { return false;}
     }
   }
 }

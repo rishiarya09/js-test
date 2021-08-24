@@ -5,7 +5,7 @@ describe('getFibonacciUntil() function', () => {
   it('should return the fibonacci numbers unil n in an array', function() {
 
     const result = getFibonacciUntil(7).toString();
-    const expected = '0,1,1,2,3,5,8';
+    const expected = '0,1,1,2,3,5,8,13';
 
     expect(result).to.equal(expected);
   });
